@@ -4,14 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>85369466-78da-4823-89e8-8b9c4a075594</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TasteOfTensorflow.py</StartupFile>
+    <StartupFile>01LinearRegression.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>TasteOfTensorflow</Name>
     <RootNamespace>TasteOfTensorflow</RootNamespace>
-    <InterpreterId>CondaEnv|CondaEnv|tensorflow12python36</InterpreterId>
+    <InterpreterId>CondaEnv|CondaEnv|tensorflow12_python37</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -28,7 +28,7 @@
     <Compile Include="TasteOfTensorflow.py" />
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="CondaEnv|CondaEnv|tensorflow12python36" />
+    <InterpreterReference Include="CondaEnv|CondaEnv|tensorflow12_python37" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
